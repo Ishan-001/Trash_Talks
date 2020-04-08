@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.realtime.chatapp2.Login"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"
+        android:layout_height="47dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="150dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="360dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="358dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Login"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here to register"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/register"/>
+
+</LinearLayout>

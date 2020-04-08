@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.realtime.chatapp2.Register"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"
+        android:layout_height="47dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="150dp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="365dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:hint="Enter username"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="366dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:hint="Enter email"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="363dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Register"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Click here to login"
+        android:textSize="20sp" />
+</LinearLayout>
