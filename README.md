@@ -1,3 +1,3 @@
 # Trash Talks
 
-- An android chat application made using Firebase Realtime Database.
+- An android chat app made using Firebase Realtime Database.
